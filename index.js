@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Conf log4js
 log4js.configure({
-    appenders: { file: { type: 'file', filename: 'logs.log' } },
+    appenders: { file: { type: 'file', filename: 'rainbow.log' } },
     categories: { default: { appenders: ['file'], level: 'info' } }
 });
 const logger = log4js.getLogger();
