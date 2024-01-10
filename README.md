@@ -8,7 +8,27 @@ Si l'authentification est réussie, une page "hello" est présentée à l'utilis
 
 Mettre en place Log4j pour la journalisation (on fera un point sur l'attaque log4j JNDI dans la restitution) et y logger les événements.
 
-## Requierement
+## Requierements
 
 - node.js et npm
+- nodemon
+```bash
+npm i -g nodemon
+```
+- Les dépendances du projets soont disponibles dans le fichier `package.json`
+
+## Lancement
+
+Installation des dépendances : 
+
+```bash
+npm i
+```
+
+Démarrage du serveur de developpement
+
+```bash
+nodemon index.js
+```
+
 
